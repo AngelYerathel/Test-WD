@@ -1,9 +1,10 @@
 .header {
     margin: 0 0 40px 0;
     padding: 10px;
-    border: 15 px thick black;
     font-size: 0;
-    background-color: cadetblue;
+    height: 45px;
+    font-family: sans-serif;
+    /*background-color: cadetblue;*/
   }
 
 .header > * {
@@ -12,7 +13,6 @@
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
-    border: 15px thick  black;
 }
 
 .logo {
@@ -29,16 +29,35 @@ li {
 
 .navbar {
     width: 70%;
-    text-align: left;
+    text-align: center;
     color: #025157;
-    font-weight: 500;
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 2px;
 }
 
 .actions {
     width: 15%;
     text-align: left;
     font-size: 14px;
-    font-weight: 600;
+}
+
+.actions > * {
+    margin: 0 10px;
+}
+
+.actions a {
+    color: #67b54b;
+}
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
 }
 
 
