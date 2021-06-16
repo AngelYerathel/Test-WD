@@ -1,7 +1,7 @@
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 0 40px 0;
+    padding: 10px;
+    border: 15 px thick black;
     font-size: 0;
     background-color: cadetblue;
   }
@@ -12,6 +12,7 @@
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
+    border: 15px thick  black;
 }
 
 .logo {
@@ -28,14 +29,14 @@ li {
 
 .navbar {
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
     font-weight: 500;
 }
 
 .actions {
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
 }
